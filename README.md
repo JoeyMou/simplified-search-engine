@@ -14,11 +14,14 @@ With our data structure, a query for a single keyword is similar to a word match
 When multiple keywords are given and the desired output is the pages containing all the given keywords, we retrieve the occurrence list of each keyword using the trie and return their intersection.
 # Input
 The input is the keywords by which users want to search.
+
 Note: the keywords should be separated by space
 eg: "CS course"
 # Output
 The output of every search will return the files which contains all the keywords.
-eg: 
+
+eg:
+ 
 ---------------------Here is search result-------------------
 Find 2 files which contains your keyword(s)!
 file name: 11.txt      file path: C:\Users\Lenovo\IdeaProjects\simplified-search-engine\files\11.txt
