@@ -8,6 +8,7 @@ We can efficiently implement an inverted index with a data structure consisting
 of the following:
 - * An array storing the occurrence lists of the terms (in no particular order)
 - * A compressed trie for the set of index terms, where each external node stores the index of the occurrence list of the associated term.
+
 # Retrieve
 With our data structure, a query for a single keyword is similar to a word matching query. Namely, we find the keywordinthe trie and we return the associated occurrence list.
 When multiple keywords are given and the desired output is the pages containing all the given keywords, we retrieve the occurrence list of each keyword using the trie and return their intersection.
