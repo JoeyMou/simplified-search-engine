@@ -16,6 +16,7 @@ When multiple keywords are given and the desired output is the pages containing 
 The input is the keywords by which users want to search.
 
 Note: the keywords should be separated by space
+
 eg: Please input your keywords(separated by space): "CS course"
 # Output
 The output of every search will return the files which contains all the keywords.
